@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>page_formulaire</title>
+		<link rel = "stylesheet" type = "text/css" href = "./ressources/style2.css">
+    </head>
+<body>
+    <a href="./index.html">Accueil</a>
+<form>
+    <fieldset>
+    <div>
+        <legend> Vos informations: </legend>
+        <br>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="age">Age :</label>
+        <input type="text" id="age" name="user_age">
+        <div>
+            <label for="genre">Choisissez un genre :</label>
+            <select id="genre">
+                <option value="F" name="genre">Femme</option>
+                <option value="H" name="genre">Homme</option>
+             </select>
+        </div>
+    </div>
+    <div>
+        <label for="mail">E-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+
+    <div> <label for="numéro de téléphone">Numéro de téléphone :</label>
+        <input type="numéro_tel" id="numéro téléphone" name="user_num_tel">
+    </div>
+     
+    <div>
+        <label for="don">Montant de votre don :</label>
+        <input type="don" id="don" name="user_don">
+    </fieldset>
+        
+    <div>
+        <input type="submit" value="Envoyer" />
+        <input type="reset" value="Annuler" />
+    </div>
+
+
+</form>
+</body>
+</html>
+
+
+
+
+
